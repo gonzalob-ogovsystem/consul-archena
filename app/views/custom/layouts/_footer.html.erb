@@ -1,8 +1,9 @@
 <footer>
   <div class="row">
     <div class="small-12 large-4 column">
+    <div class="container-logo-footer">
     <%= image_tag(image_path_for("logo_header.png"), alt: setting["org_name"]) %>
-
+       </div>
       <p class="info">
         <%= sanitize(t("layouts.footer.description",
           open_source: link_to(t("layouts.footer.open_source"), t("layouts.footer.open_source_url"), target: "blank", rel: "nofollow"),

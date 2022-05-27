@@ -58,3 +58,6 @@ form [type]:not([type="button"], [type="checkbox"], [type="file"], [type="radio"
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
 } 
+.subnavigation a.is-active {
+    border-bottom: none;
+} 

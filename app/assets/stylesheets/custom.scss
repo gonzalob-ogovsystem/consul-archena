@@ -65,3 +65,19 @@ form [type]:not([type="button"], [type="checkbox"], [type="file"], [type="radio"
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
 }
+footer #copyright {
+    background: #333;
+}
+footer #copyright .row {
+    padding: 10px 0;
+}
+ul.legal.menu {
+    display: flex;
+}
+@media (min-width: 375px){
+footer .menu {
+    padding-left: 25px !important;
+}}
+footer .menu {
+    color: #fff;
+}

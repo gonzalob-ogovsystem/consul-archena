@@ -65,10 +65,10 @@ form [type]:not([type="button"], [type="checkbox"], [type="file"], [type="radio"
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
 }
-footer #copyright {
+.copyright {
     background: #333;
 }
-footer #copyright .row {
+.copyright .row {
     padding: 10px 0;
 }
 ul.legal.menu {

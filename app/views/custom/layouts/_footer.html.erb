@@ -1,10 +1,7 @@
 <footer>
   <div class="row">
     <div class="small-12 large-4 column">
-      <h1 class="logo">
-      <img alt="logo" class="logofooter" src="https://transparencia.archena.es/storage/uploads/1648552869200w-Escudo_de_Archena.png">
-        <%= link_to t("layouts.header.open_gov"), root_path %>
-      </h1>
+    <%= image_tag(image_path_for("logo_header.png"), alt: setting["org_name"]) %>
 
       <p class="info">
         <%= sanitize(t("layouts.footer.description",

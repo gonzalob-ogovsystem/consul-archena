@@ -26,30 +26,30 @@
 
 
 
-        <div id="copyright">
-<div class="subfooter row">
-    <div class="small-12 medium-8 column">
-      <%= t("layouts.footer.copyright", year: Time.current.year) %>&nbsp;|
-      <ul class="no-bullet inline-block">
-        <li class="inline-block"><%= link_to t("layouts.footer.privacy"), page_path("privacy") %>&nbsp;|</li>
-        <li class="inline-block"><%= link_to t("layouts.footer.conditions"), page_path("conditions") %>&nbsp;|</li>
-        <li class="inline-block"><%= link_to t("layouts.footer.accessibility"), page_path("accessibility") %></li>
-      </ul>
+       
+  </div>
+ 
+  <div class="footer secundario">
+  <footer>
+  <div class="subfooter row secundary">
+  
+  
+  <%= render Layout::SocialComponent.new %>
+      <div class="col-md-2 secundary">
+      <div class="logo logosecundario">
+        <a role="button" aria-pressed="true" target="_blank" href="https://www.ogovsystem.com/" class="titleFooter">
+            <img class="logofooter2" src="https://transparencia.archena.es/img/logo_ogovsystem_blanco-100-es.png" alt="logo-Ogovsystem">
+        </a>
     </div>
-
+    </div>
     <%= render Layout::SocialComponent.new %>
-
-
-
-
-
-    <div class="col-md-2">
-    <div class="logo logosecundario">
-      <a role="button" aria-pressed="true" target="_blank" href="https://www.ogovsystem.com/" class="titleFooter">
-          <img class="logofooter2" src="https://transparencia.archena.es/img/logo_ogovsystem_blanco-100-es.png" alt="logo-Ogovsystem">
-      </a>
-  </div>
-  </div>
-
-  </div>
-  </div>
+    <div class="col-lg-5 secundary">
+        <%= t("layouts.footer.copyright", year: Time.current.year) %>&nbsp;|
+        <ul class="no-bullet inline-block">
+          <li class="inline-block"><%= link_to t("layouts.footer.privacy"), page_path("privacy") %>&nbsp;|</li>
+          <li class="inline-block"><%= link_to t("layouts.footer.conditions"), page_path("conditions") %>&nbsp;|</li>
+          <li class="inline-block"><%= link_to t("layouts.footer.accessibility"), page_path("accessibility") %></li>
+        </ul>
+      </div>
+    </div>
+    </div>

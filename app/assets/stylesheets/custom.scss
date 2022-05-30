@@ -81,3 +81,26 @@ footer .menu {
 footer .menu {
     color: #fff;
 }
+.footer.secundario {
+    background: #333;
+    color: #fff;
+    margin-top: 0px;
+}
+.subfooter.row.secundary {
+    border-top: none;
+}
+.logofooter2 {
+    max-width: 50px;
+}
+.subfooter.row.secundary {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-md-2.secundary {
+    padding-left: 40%;
+}
+.col-lg-5.secundary {
+    padding-left: 20%;
+}

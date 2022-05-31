@@ -51,13 +51,13 @@ a:hover, a:active {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     padding: 11px 15px;
 }
-form [type]:not([type="button"], [type="checkbox"], [type="file"], [type="radio"], [type="submit"]) {
-    margin-bottom: 1rem;
-    width: 90px;
-    background-color: #333;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-} 
+//form [type]:not([type="button"], [type="checkbox"], [type="file"], [type="radio"], [type="submit"]) {
+    //margin-bottom: 1rem;
+   // width: 90px;
+    //background-color: #f3f3f3;
+    //border-bottom-left-radius: 20px;
+    //border-top-left-radius: 20px;
+//} 
 .subnavigation a.is-active {
     border-bottom: none;
 } 
@@ -85,6 +85,8 @@ footer .menu {
     background: #333;
     color: #fff;
     margin-top: 0px;
+    height: 100px;
+    padding-top: 10px;
 }
 .subfooter.row.secundary {
     border-top: none;
@@ -103,4 +105,40 @@ footer .menu {
 }
 .col-lg-5.secundary {
     padding-left: 20%;
+}
+#search_text {
+    background-color: #f3f3f3;
+     margin-bottom: 1rem;
+   width: 90px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    color: #333;
+}
+.mb-3.header {
+    color: #fff;
+    font-family: 'muli-regular',sans-serif;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 50px;
+
+}
+
+.p-5.text-center.bg-image {
+    background-image: url('https://transparencia.archena.es/storage/uploads/1653979426puente.jpg');
+    height: 500px;
+    padding-top: 10px;
+  
+}
+
+.jumbo {
+    background: #f3f3f3;
+    height: 550px;
+}
+.home-page .background-header, .custom-page .background-header, .sdg-goal-show .background-header, .sdg-goals-index .background-header {
+    background: #ffff;
+
+}
+.lead {
+    font-size: 1.2rem;
 }

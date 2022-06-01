@@ -1,0 +1,74 @@
+<% if header.present? %>
+  <div class="header-card jumbo highlight">
+    <div class="row">
+
+    
+
+
+      <div class="small-12 medium-6 column <%= "medium-9 small-centered text-center" unless header.image.present? %>">
+        <span><%= header.label %></span>
+        <h1 class="home"> <%= header.title %></h1>
+
+        <p class="lead"><%= header.description %></p>
+
+        <div class="container">
+        <div class="row cajas-header">
+        <div class="cajaHeader1 col-lg-3 col-md-6 col-xs-12 count-one">
+        <div>
+        <a role="button" aria-pressed="true" href="#"> 
+         <span class="icon"><i class="fa fa-users"> </i></span>
+         <div class="counter-number-wrapper">
+         <h2 id="totalrepresentantes" class="  count-value" data-to="17" data-speed="1000">17</h2></div>
+         <hr class="width25-divider">
+         <small id="consejeros" class="count-title">Titulo 1</small>
+        </a></div>
+       </div>
+
+       <div class="cajaHeader2 col-lg-3 col-md-6 col-xs-12 count-one">
+        <div>
+        <a role="button" aria-pressed="true" href="#"> 
+         <span class="icon"><i class="fa fa-users"> </i></span>
+         <div class="counter-number-wrapper">
+         <h2 id="totalrepresentantes" class="  count-value" data-to="17" data-speed="1000">17</h2></div>
+         <hr class="width25-divider">
+         <small id="consejeros" class="count-title">Titulo 2</small>
+        </a></div>
+       </div>
+
+       <div class="cajaHeader2 col-lg-3 col-md-6 col-xs-12 count-one">
+       <div>
+       <a role="button" aria-pressed="true" href="#"> 
+        <span class="icon"><i class="fa fa-users"> </i></span>
+        <div class="counter-number-wrapper">
+        <h2 id="totalrepresentantes" class="  count-value" data-to="17" data-speed="1000">17</h2></div>
+        <hr class="width25-divider">
+        <small id="consejeros" class="count-title">Titulo 3</small>
+       </a></div>
+      </div>
+
+       </div>
+       </div>
+
+
+
+    
+      
+
+        <% if header.link_text.present? && header.link_url.present? %>
+          <div class="small-12 medium-6 large-4 <%= "small-centered" unless header.image.present? %>">
+            <%= link_to header.link_text, header.link_url, class: "button expanded large" %>
+          </div>
+        <% end %>
+      </div>
+
+      <% if header.image.present? %>
+        <div class="small-12 medium-6 column">
+          <%= image_tag(header.image.variant(:large),
+                        class: "margin",
+                        alt: header.image.title) %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+  <div class="background-header"></div>
+<% end %>

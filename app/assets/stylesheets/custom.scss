@@ -150,16 +150,18 @@ footer .menu {
 }
 .cajaHeader1 {
     background-color: #5aacdd;
-    max-width: 20%;
     margin-left: 5px;
     padding: 20px;
+    width: 33.33%;
 }
 .cajaHeader2 {
     background-color: #5aacdd;
-    max-width: 20%;
     margin-left: 5px;
     padding: 20px;
+    width: 33.33%;
 }
 .row.cajas-header {
     display: flex;
+    margin-right: 4px;
+    margin-left: 4px;
 }

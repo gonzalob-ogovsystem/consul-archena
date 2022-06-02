@@ -51,13 +51,7 @@ a:hover, a:active {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     padding: 11px 15px;
 }
-//form [type]:not([type="button"], [type="checkbox"], [type="file"], [type="radio"], [type="submit"]) {
-    //margin-bottom: 1rem;
-   // width: 90px;
-    //background-color: #f3f3f3;
-    //border-bottom-left-radius: 20px;
-    //border-top-left-radius: 20px;
-//} 
+
 .subnavigation a.is-active {
     border-bottom: none;
 } 
@@ -124,12 +118,9 @@ footer .menu {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-/*.p-5.text-center.bg-image {
-    background-image: url('https://transparencia.archena.es/storage/uploads/1653979426puente.jpg');
-    height: 500px;
-    padding-top: 10px;
-  
-}*/
+.card.small-12.medium-4.column.margin-bottom.end {
+    padding-top: 20px;
+}
 
 .jumbo {
     background: #f3f3f3;
@@ -164,4 +155,72 @@ footer .menu {
     display: flex;
     margin-right: 4px;
     margin-left: 4px;
+}
+.figure-card .gradient {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.01) 100%, black 10%);
+}
+.figure-card figcaption {
+    color: #333;
+
+}
+.home-page .card {
+    border: 1;
+    box-shadow: 0px 0px 6px 0px rgba(179, 179, 179, 9);
+}
+.home-page .card a:hover, .custom-page .card a:hover, .sdg-goal-show .card a:hover, .sdg-goals-index .card a:hover {
+    -webkit-box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0);
+    text-decoration: none;
+}
+
+element {
+
+}
+body.public {
+
+    margin-left: calc(50vw - 37.5rem);
+    margin-right: calc(50vw - 37.5rem);
+
+}
+body {
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 1.0625rem;
+    min-height: 100%;
+
+}
+html, body {
+
+    margin: 0;
+        margin-right: 0px;
+        margin-left: 0px;
+
+}
+body {
+
+    font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" ;
+
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-family: "Montserrat", Sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    color: #444;
+}
+element {
+
+}
+.home-page h2.title {
+    border-top: none;
+    font-size: 1.6rem;
+
 }

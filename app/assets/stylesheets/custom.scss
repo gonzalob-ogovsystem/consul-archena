@@ -166,6 +166,7 @@ footer .menu {
 .home-page .card {
     border: 1;
     box-shadow: 0px 0px 6px 0px rgba(179, 179, 179, 9);
+    background-color: #f3f3f3;
 }
 .home-page .card a:hover, .custom-page .card a:hover, .sdg-goal-show .card a:hover, .sdg-goals-index .card a:hover {
     -webkit-box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0);
@@ -223,4 +224,17 @@ element {
     border-top: none;
     font-size: 1.6rem;
 
+}
+.banner.preFooter {
+    background-image: url("https://www.ogovsystem.com/wp-content/uploads/2022/06/banner_cabeceraP-.png");
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #f3f3f3;
+    z-index: 0;
+    margin-bottom: -50px;
+}
+.home-page .cards-container {
+    padding-bottom: 10%;
 }

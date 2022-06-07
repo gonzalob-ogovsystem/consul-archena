@@ -176,6 +176,7 @@ background-color: rgba(47, 46, 46, 0.4);
 }
 .figure-card figcaption {
     color: #333;
+    background-color: rgba(255, 255, 255, 0.6);
 
 }
 .home-page .card {
@@ -267,4 +268,19 @@ h1, h2, h3, h4, h5, h6 {
 } 
 .budgets-index {
     margin-top: -28px;
+}
+
+.banner.presupuestos {
+    background-image: url("https://www.ogovsystem.com/wp-content/uploads/2022/06/banner_cabecera2-.png");
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #f3f3f3;
+    z-index: 0;
+    margin-top: -28px;
+    padding-bottom: 20px;
+}
+.figure-card {
+    min-height: 15rem;
 }

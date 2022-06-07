@@ -217,9 +217,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     color: #444;
 }
-element {
 
-}
 .home-page h2.title {
     border-top: none;
     font-size: 1.6rem;
@@ -237,4 +235,8 @@ element {
 }
 .home-page .cards-container {
     padding-bottom: 10%;
+}
+.text-footer {
+    margin-left: -33px;
+    text-align: center;
 }

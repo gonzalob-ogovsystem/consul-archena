@@ -4,8 +4,6 @@
     <div class="small-12 large-4 column">
     <div class="container-logo-footer">
     <%= image_tag(image_path_for("logo_header.png"), alt: setting["org_name"]) %>
-
-    
        </div>
       <div class="text-footer">
        <%= link_to t("layouts.footer.participation_title"), root_path, class: "title" %>
@@ -19,7 +17,9 @@
       <div class="small-12 medium-4 column">
         
       </div>
+      
     </div>
+    <%= render Layout::SocialComponent.new %>
   </div>
 </footer>
 </div>
@@ -30,7 +30,7 @@
   <div class="subfooter row secundary">
   
   
-  <%= render Layout::SocialComponent.new %>
+  
       <div class="col-md-2 secundary">
       <div class="logo logosecundario">
         <a role="button" aria-pressed="true" target="_blank" href="https://www.ogovsystem.com/" class="titleFooter">
@@ -38,7 +38,7 @@
         </a>
     </div>
     </div>
-    <%= render Layout::SocialComponent.new %>
+    
     <div class="col-lg-5 secundary">
         <%= t("layouts.footer.copyright", year: Time.current.year) %>&nbsp;|
         <ul class="no-bullet inline-block">
@@ -55,4 +55,4 @@
     </div>
     </div>
 
-   
+    </footer>

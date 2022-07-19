@@ -288,3 +288,8 @@ h1, h2, h3, h4, h5, h6 {
 .figure-card {
     min-height: 15rem;
 }
+@media only screen and (max-width: 390px){
+    .top-bar .top-bar-title a img {
+       padding-left: 40% !important;
+    }
+  }

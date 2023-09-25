@@ -111,11 +111,12 @@ footer .menu {
 .home {
     color: #fff;
     font-family: 'muli-regular',sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 50px;
     background-color: rgba(0, 0, 0, 0.4);
+    padding-left: 15px;
 }
 
 .card.small-12.medium-4.column.margin-bottom.end {
@@ -132,6 +133,7 @@ footer .menu {
 }
 .lead {
     font-size: 1.2rem;
+    padding-left: 15px;
 }
 .jumbo.header-card {
     position: relative;

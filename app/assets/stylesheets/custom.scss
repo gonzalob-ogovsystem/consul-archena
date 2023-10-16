@@ -115,7 +115,6 @@ footer .menu {
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 50px;
-    background-color: rgba(0, 0, 0, 0.4);
     padding-left: 15px;
 }
 
@@ -132,10 +131,16 @@ footer .menu {
 
 }
 .header-title-container {
+    margin-top: 10px;
     color: #FFF;
+    padding: 45px;
     background: rgba(0,0,0,0.6);
     -webkit-box-shadow: 0px 0px 6px 0px #333;
     box-shadow: 0px 0px 6px 0px #333;
+}
+.title {
+    border-bottom: 2px solid #7dbbe2;
+    margin: 1.5rem 0;
 }
 .lead {
     font-size: 1.2rem;
